@@ -1,0 +1,13 @@
+/time set day
+/weather clear
+/gamerule doDaylightCycle false
+/gamerule doWeatherCycle false
+/gamemode creative
+/locate biome plains
+/tp @s -84 103 -137
+/tp @e[nbt={NoAI:1}] @s
+/tp @e[nbt={NoAI:1b}] @s
+/gamemode spectator
+/up 5
+/setblock ~ ~5 ~ glass
+/setblock ~ ~5 ~ barrier

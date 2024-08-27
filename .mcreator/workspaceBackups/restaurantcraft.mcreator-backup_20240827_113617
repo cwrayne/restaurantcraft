@@ -1,0 +1,105 @@
+{
+  "mod_elements": [
+    {
+      "name": "RestaurantCraft",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "restaurant_craft",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "FrenchFries",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "french_fries",
+      "metadata": {
+        "files": [
+          "src/main/java/com/bwrayne/restaurantcraft/item/FrenchFriesItem.java",
+          "src/main/resources/assets/restaurantcraft/models/item/french_fries.json"
+        ]
+      }
+    },
+    {
+      "name": "ChickenNuggets",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chicken_nuggets",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/restaurantcraft/models/item/chicken_nuggets.json",
+          "src/main/java/com/bwrayne/restaurantcraft/item/ChickenNuggetsItem.java"
+        ]
+      }
+    },
+    {
+      "name": "BigMac",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "big_mac",
+      "metadata": {
+        "files": [
+          "src/main/java/com/bwrayne/restaurantcraft/item/BigMacItem.java",
+          "src/main/resources/assets/restaurantcraft/models/item/big_mac.json"
+        ]
+      }
+    },
+    {
+      "name": "Cheeseburger",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cheeseburger",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/restaurantcraft/models/item/cheeseburger.json",
+          "src/main/java/com/bwrayne/restaurantcraft/item/CheeseburgerItem.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {
+    "ITEMS:minecraft:meat": [
+      "~CUSTOM:BigMac"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item.restaurantcraft.french_fries": "French Fries",
+      "item.restaurantcraft.cheeseburger": "Cheeseburger",
+      "item_group.restaurantcraft.restaurant_craft": "RestaurantCraft",
+      "item.restaurantcraft.big_mac": "Big Mac",
+      "item.restaurantcraft.chicken_nuggets": "Chicken Nuggets"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "restaurantcraft",
+    "modName": "RestaurantCraft",
+    "version": "1.0.0",
+    "description": "A Minecraft mod for adding restaurants to the game.",
+    "author": "bwrayne",
+    "websiteURL": "modrinth url idk",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.20.6",
+    "credits": "Kingslav_Games for the McDonalds schematic",
+    "modElementsPackage": "com.bwrayne.restaurantcraft"
+  },
+  "mcreatorVersion": 202400232117
+}
